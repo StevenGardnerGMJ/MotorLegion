@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="驰骋天下只因为我们热爱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnB-4o-YDK">
+                                <rect key="frame" x="95" y="631" width="191" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="5u2-l7-iy6"/>
+                                    <constraint firstAttribute="height" constant="21" id="pci-yo-O6l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="nfl-ek-cbv">
+                                <rect key="frame" x="47" y="609" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="cXd-1Y-0ae"/>
+                                    <constraint firstAttribute="height" constant="40" id="gCS-Hg-51v"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="铁骑军团" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kR-pj-HJi">
+                                <rect key="frame" x="95" y="609" width="104" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Dad-bO-fxr"/>
+                                    <constraint firstAttribute="height" constant="21" id="P2G-D6-qrO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsR-te-yhd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="601"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="广告占位">
+                                    <color key="titleColor" red="1" green="0.64284337010000003" blue="0.1214645038" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nfl-ek-cbv" secondAttribute="bottom" constant="18" id="0oY-xq-zQ1"/>
+                            <constraint firstItem="nfl-ek-cbv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="31" id="GCW-Gk-nZ5"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="UnB-4o-YDK" secondAttribute="bottom" constant="15" id="NL8-Zh-8cw"/>
+                            <constraint firstItem="6kR-pj-HJi" firstAttribute="leading" secondItem="nfl-ek-cbv" secondAttribute="trailing" constant="8" id="SKC-UJ-QEq"/>
+                            <constraint firstItem="6kR-pj-HJi" firstAttribute="leading" secondItem="nfl-ek-cbv" secondAttribute="trailing" constant="8" id="crK-1P-kA3"/>
+                            <constraint firstAttribute="trailing" secondItem="AsR-te-yhd" secondAttribute="trailing" id="dko-fd-8SM"/>
+                            <constraint firstItem="UnB-4o-YDK" firstAttribute="leading" secondItem="nfl-ek-cbv" secondAttribute="trailing" constant="8" id="izn-qS-WFs"/>
+                            <constraint firstItem="AsR-te-yhd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ltB-Ii-oZU"/>
+                            <constraint firstItem="UnB-4o-YDK" firstAttribute="top" secondItem="6kR-pj-HJi" secondAttribute="bottom" constant="1" id="nY4-qk-Mso"/>
+                            <constraint firstItem="AsR-te-yhd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="rU5-0S-emJ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="AsR-te-yhd" secondAttribute="bottom" constant="66" id="yiW-fi-naE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="381.33802816901408"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login" width="40" height="40"/>
+    </resources>
+</document>
